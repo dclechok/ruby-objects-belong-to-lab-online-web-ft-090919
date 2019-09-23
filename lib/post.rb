@@ -3,7 +3,7 @@ class Post
   attr_accessor :title
   
   def initialize()
-    author = Author.new()
+    self.author = Author.new()
   end
   
 end
